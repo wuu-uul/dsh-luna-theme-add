@@ -1,0 +1,66 @@
+{
+  "name": "dsh-luna-theme-add",
+  "version": "0.15.0",
+  "description": "Luna restyle for DeepSeek Harness, with adjustable background blur and mask opacity, a balance widget, a memory badge, an Asahi desktop pet and an optional title opening with voice playback.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "theme",
+    "luna",
+    "wallpaper",
+    "blur",
+    "pet"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuu-uul/dsh-luna-theme-add.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wuu-uul/dsh-luna-theme-add/issues"
+  },
+  "homepage": "https://github.com/wuu-uul/dsh-luna-theme-add#readme",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./widget": "./widget.js",
+    "./pet": "./pet.js",
+    "./opening": "./opening.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "widget.js",
+    "pet.js",
+    "opening.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "THIRD-PARTY-NOTICES.md",
+    "assets/luna-settings.webp",
+    "assets/luna-noon.webp",
+    "assets/luna-bot.png",
+    "assets/asahi.webp",
+    "assets/pet-art",
+    "assets/opening",
+    "preview/opening.html",
+    "persona/asahi-chat.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}
