@@ -3,7 +3,7 @@
   'use strict'
 
   var scriptUrl = document.currentScript && document.currentScript.src
-  var assetBase = scriptUrl ? new URL('.', scriptUrl).href : '/dsh-luna-opening/'
+  var assetBase = scriptUrl ? new URL('.', scriptUrl).href : '/dsh-luna-add-opening/'
   var activeStop = null
   var messages = {
     zh: {

@@ -162,13 +162,13 @@ var styleEl = document.createElement('style')
 // removeOwnedStyles. Untagged, this sheet is collateral damage whenever a
 // plugin materialising after this script reloads: the widget loses --dshw-base
 // and its image falls back to its natural 1026px.
-styleEl.dataset.plugin = 'luna-balance-widget'
+styleEl.dataset.plugin = 'luna-balance-widget-add'
 styleEl.textContent = css
 document.head.appendChild(styleEl)
 
 var root = document.createElement('div')
 root.className = 'dshwv-root'
-root.id = 'luna-balance-widget'
+root.id = 'luna-balance-widget-add'
 
 var img = document.createElement('img')
 img.className = 'dshwv-img'
@@ -647,7 +647,7 @@ window.__dshLunaAddWidgetDispose = function () {
  * the hook here only covers shells that do apply it.
  */
 export default {
-  name: 'luna-balance-widget',
+  name: 'luna-balance-widget-add',
   inject: ['webServer', 'credentials'],
   apply(ctx) {
     let image = null

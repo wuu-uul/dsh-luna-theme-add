@@ -4,7 +4,7 @@ import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 /** Independently switchable component id in the theme bundle. */
-export const name = 'luna-opening'
+export const name = 'luna-opening-add'
 
 /** Static assets and the first-paint skin require the web server. */
 export const inject = ['webServer']

@@ -412,7 +412,7 @@ var css = [
 // see two pets. The stale roots are removed here, before this mount builds
 // its own, so the ordering leaves exactly one pet on the page.
 for (var staleRoot of document.querySelectorAll('.dshlp-root')) staleRoot.remove()
-for (var staleStyle of document.querySelectorAll('style[data-plugin="luna-pet"]')) staleStyle.remove()
+for (var staleStyle of document.querySelectorAll('style[data-plugin="luna-pet-add"]')) staleStyle.remove()
 
 var styleEl = document.createElement('style')
 // Declare ownership before inserting. The client module system assigns every
@@ -420,7 +420,7 @@ var styleEl = document.createElement('style')
 // packages/client/modules), and that package's later replacement deletes it via
 // removeOwnedStyles. Untagged, this sheet is collateral damage whenever a
 // plugin materialising after this script reloads.
-styleEl.dataset.plugin = 'luna-pet'
+styleEl.dataset.plugin = 'luna-pet-add'
 styleEl.textContent = css
 document.head.appendChild(styleEl)
 
@@ -1721,7 +1721,7 @@ function observe(event) {
  * @param ctx - the plugin fiber's Host context.
  */
 export default {
-  name: 'luna-pet',
+  name: 'luna-pet-add',
   inject: ['webServer'],
   apply(ctx) {
     const art = new Map()
