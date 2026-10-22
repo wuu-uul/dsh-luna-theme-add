@@ -4,7 +4,7 @@
 
 背景壁纸的**模糊度**与**遮罩浓度**可在插件设置页实时调节，调节结果保存在浏览器本地，刷新后仍然生效。
 
-> 本包是 [`dsh-luna-theme`](https://github.com/wuu-uul/dsh-luna-theme) 的衍生分支，
+> 本包是 [`dsh-luna-theme`](https://github.com/shinku-xuan/dsh-luna-theme) 的衍生分支，
 > 沿用其素材来源与 MIT 许可口径，原作者的版权声明予以保留（见 [LICENSE](LICENSE)）。
 > 与原版可以共存：包名、行 id、HTTP 路由前缀（`/dsh-luna-add*`）、页面脚本标记
 > 与全局变量名都做了区分。
@@ -145,7 +145,7 @@ pnpm publish --access public
 
 ## 致谢
 
-- [dsh-luna-theme](https://github.com/wuu-uul/dsh-luna-theme) —— 本包的上游，作者二阶堂真惨
+- [dsh-luna-theme](https://github.com/shinku-xuan/dsh-luna-theme) —— 本包的上游，作者二阶堂真惨
 - [Luna-Chat](https://github.com/shinku-xuan/Luna-Chat) —— 主题风格来源
 - [DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget) —— 余额挂件来源
 - Navel —— 《近月少女的礼仪》素材权利人

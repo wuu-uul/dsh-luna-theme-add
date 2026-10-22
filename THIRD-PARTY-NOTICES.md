@@ -4,7 +4,7 @@
 **仓库根目录的 `LICENSE`（MIT）只覆盖本项目自己的代码，不覆盖下列素材。**
 余额挂件的代码另按第 3 节声明。
 
-本项目是 [`dsh-luna-theme`](https://github.com/wuu-uul/dsh-luna-theme) 的衍生分支，
+本项目是 [`dsh-luna-theme`](https://github.com/shinku-xuan/dsh-luna-theme) 的衍生分支，
 沿用其素材来源与许可口径；本分支的改动见第 5 节。
 
 ---
